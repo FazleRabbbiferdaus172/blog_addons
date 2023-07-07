@@ -12,10 +12,10 @@
     'category': 'Uncategorized',
     'version': '15.0.0.1',
 
-    'depends': ['base'],
+    'depends': ['mail', 'crm'],
 
     # always loaded
     'data': [
-
+        'views/view_crm_lead.xml',
     ],
 }
